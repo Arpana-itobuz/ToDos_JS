@@ -1,0 +1,58 @@
+* {
+  padding: 5px;
+  background-color: rgb(207, 182, 205);
+}
+
+h1 {
+  color: rgb(13, 8, 2);
+  text-align: center;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#boton1,
+#button,
+#boton2,
+#boton3,
+#boton4 {
+  margin-left: 10px;
+  background-color: rgb(13, 8, 2);
+  border-radius: 5px;
+  color: rgb(207, 182, 205);
+  border: none;
+  padding: 10px;
+}
+
+#btn {
+  margin-top: 20px;
+}
+
+.trash1,
+.trash2,
+.message {
+  display: none;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.show {
+  display: none;
+}
+
+#destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.fas {
+  color: rgb(207, 182, 205);
+  background-color: black;
+  outline: none;
+}

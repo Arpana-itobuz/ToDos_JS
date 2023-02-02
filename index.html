@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDos</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>ToDos</h1>
+    <div>
+      <input type="text" placeholder="What needs to be done?" />
+      <button id="button">+</button>
+    </div>
+    <div class="show" id="showing">
+      <button class="message" id="msgbox"></button>
+      <button class="trash2" id="btn2">
+        <i class="fas fa-solid fa-check"></i>
+      </button>
+      <button class="trash1" id="btn1">
+        <i class="fas fa-solid fa-trash"></i>
+      </button>
+    </div>
+    <div id="destination"></div>
+    <div id="btn">
+      <button id="boton1">All</button>
+      <button id="boton2">Active</button>
+      <button id="boton3">Completed</button>
+      <button id="boton4">Clear Completed</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
